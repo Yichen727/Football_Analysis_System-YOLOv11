@@ -1,0 +1,7 @@
+train: C:\Users\86153\ultralytics\data\images\train  # train images 
+val: C:\Users\86153\ultralytics\data\images\valid # val images 
+
+nc: 3 
+
+# class names
+names: ['Player','Referee', 'Football']
