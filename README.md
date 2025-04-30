@@ -8,19 +8,15 @@ This project aims to develop an AI-driven Football Analysis System that utilizes
 ### Clone the Repository:
 Clone the project repository to your local machine:
 ```bash
-git clone https://github.com/mradovic38/football_analysis.git
-cd football_analysis
+git clone https://github.com/Yichen727/football_analyze_yolov11.git
+cd football_analyze_yolov11
 ```
 
 ### Prerequisites
 - Ensure you have **Python 3.8 or later** installed.
-- Install the required packages using pip:
-```bash
-pip install -r requirements.txt
-```
+link: https://www.python.org/downloads/release/python-380/
 
-#### Install Required Dependencies:
-Ensure you have all the necessary dependencies installed. You can use a package manager like pip:
+- Ensure you have all the necessary dependencies installed:
 ```bash
 pip install -r requirements.txt
 ```
