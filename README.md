@@ -28,19 +28,25 @@ python GUI.py
 ```
 
 ## 📜 Feature Explanations
-📂Model: When the user clicks the “Model” button, a file selection dialog appears, allowing them to choose a YOLO-based model file (typically with a .pt extension). It is strongly recommended to select the pre-trained football detection model provided with the system (best.pt). However, the system is very flexible, allowing users to load and use other YOLO models as well. This makes it suitable for a wide range of object detection tasks beyond football.
+📂 Model
+Clicking the “Model” button opens a file selection dialog for choosing a YOLO-based model file . It is recommended to use the provided football detection model (best.pt) for optimal performance. However, the system is designed to be flexible and supports loading other YOLO models, making it adaptable for various object detection tasks beyond football.
 
-🎞️Video: By clicking the “Video” button, the user is prompted to select a video file (e.g., .mp4, .avi, .mov, etc.) from their local directory. The system then processes the video frame by frame, displaying both the original footage and the detection results simultaneously within the GUI. This mode is ideal for analyzing recorded matches, offering users the ability to pause, screenshot, and review specific game moments.
+🎞️ Video
+Clicking the “Video” button prompts the user to select a local video file (e.g., .mp4, .avi, .mov). The system then processes the video frame by frame, displaying both the original footage and the detection results within the interface. This mode is ideal for analyzing recorded matches, with features to pause playback, take screenshots, and closely review key moments.
 
-📹Camera: Clicking the “Camera” button activates the system’s ability to detect and list available camera devices. The user can then choose from internal or external webcams connected to their machine. Once a camera is selected, the application enters real-time detection mode, capturing live video feed and processing each frame on the fly.  
+📹 Camera
+Clicking the “Camera” button detects and lists all available camera devices (internal or external). Upon selection, the system enters real-time detection mode, capturing and processing the live feed frame by frame. This is useful for live analysis during training sessions or broadcasts.
 
-⏸️Pause:  When the user clicks the "Pause" button, the detection temporarily halts, freezing the current frame. This allows the user to observe and analyze specific moments—such as player positioning or referee actions—without the distraction of ongoing motion. Once paused, the button label switches to “Play”, enabling the user to resume the detection process seamlessly.
+⏸️ Pause / Play
+Clicking “Pause” temporarily halts detection and freezes the current frame, allowing users to closely examine specific events such as player formations or referee decisions. The button toggles to “Play”, which resumes the detection seamlessly.
 
-📷Screen Shot: By clicking the "Screen Shot" button, the user captures the current detection frame (with bounding boxes) and saves it to a predefined directory. This function is especially useful for recording critical events or incidents during a match for later analysis or reporting.
+📷 Screen Shot
+Clicking “Screen Shot” captures the current frame with detection results (including bounding boxes) and saves it to a predefined directory. This feature is useful for documenting important events or preparing reports.
 
-🛑Stop: When the user clicks the "Stop" button, the detection process ends, and the video playback or camera feed is terminated. This action resets the system state, allowing the user to load a new model or input source without restarting the application.
+🛑 Stop
+Clicking “Stop” ends the detection process and stops the video playback or camera stream. The system is then reset, allowing the user to load a new model or input source without restarting the application.
 
-⏹Exit: By clicking the "Exit" button, the application closes safely. This action ensures that all associated resources, such as the camera stream, loaded model, and memory are properly released, preventing system errors or crashes during future use.
-
+⏹ Exit
+Clicking “Exit” safely closes the application. This ensures that all resources—including camera streams, loaded models, and memory—are properly released, preventing crashes or errors in future sessions.
 
 
