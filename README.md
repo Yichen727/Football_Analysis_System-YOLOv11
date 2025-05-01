@@ -28,25 +28,25 @@ python GUI.py
 ```
 
 ## 📜 Feature Explanations
-📂 Model
+📂 Model:
 Clicking the “Model” button opens a file selection dialog for choosing a YOLO-based model file . It is recommended to use the provided football detection model (best.pt) for optimal performance. However, the system is designed to be flexible and supports loading other YOLO models, making it adaptable for various object detection tasks beyond football.
 
-🎞️ Video
+🎞️ Video:
 Clicking the “Video” button prompts the user to select a local video file (e.g., .mp4, .avi, .mov). The system then processes the video frame by frame, displaying both the original footage and the detection results within the interface. This mode is ideal for analyzing recorded matches, with features to pause playback, take screenshots, and closely review key moments.
 
-📹 Camera
+📹 Camera:
 Clicking the “Camera” button detects and lists all available camera devices (internal or external). Upon selection, the system enters real-time detection mode, capturing and processing the live feed frame by frame. This is useful for live analysis during training sessions or broadcasts.
 
-⏸️ Pause / Play
+⏸️ Pause / Play:
 Clicking “Pause” temporarily halts detection and freezes the current frame, allowing users to closely examine specific events such as player formations or referee decisions. The button toggles to “Play”, which resumes the detection seamlessly.
 
-📷 Screen Shot
+📷 Screen Shot:
 Clicking “Screen Shot” captures the current frame with detection results (including bounding boxes) and saves it to a predefined directory. This feature is useful for documenting important events or preparing reports.
 
-🛑 Stop
+🛑 Stop:
 Clicking “Stop” ends the detection process and stops the video playback or camera stream. The system is then reset, allowing the user to load a new model or input source without restarting the application.
 
-⏹ Exit
+⏹ Exit:
 Clicking “Exit” safely closes the application. This ensures that all resources—including camera streams, loaded models, and memory—are properly released, preventing crashes or errors in future sessions.
 
 
