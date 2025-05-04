@@ -3,6 +3,13 @@
 
 This project aims to develop an AI-driven Football Analysis System that utilizes the YOLOv11 object detection model to effectively localize and detect the positions of players, officials, and the ball in real-time during football games. By integrating advanced technology with a user-friendly interface, the system seeks to make football analytics more accessible and widely applicable. Users will gain valuable insights into player movements, positioning, and tactical patterns, enabling a deeper understanding of the game. 
 
+## 📁 Dataset
+The self-annotated dataset used for training and evaluation is available for download via Google Drive:
+
+🔗 https://drive.google.com/drive/folders/1ibCxaK_JHJPj_oyBDrQcdeggLVoGwqdX?usp=drive_link
+
+This dataset includes 4,000+ labeled images covering players, referees, and footballs, annotated for optimal training of YOLO-based object detection models.
+
 ## ❓ How to Run
 
 ### Clone the Repository:
