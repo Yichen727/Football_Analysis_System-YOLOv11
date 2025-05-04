@@ -81,8 +81,8 @@ class MyWindow(QtWidgets.QMainWindow):
         btnLayout.addWidget(self.openVideoBtn)
         btnLayout.addWidget(self.openCamBtn)
         btnLayout.addWidget(self.pauseBtn)
-        btnLayout.addWidget(self.stopDetectBtn)
         btnLayout.addWidget(self.screenshotBtn)
+        btnLayout.addWidget(self.stopDetectBtn)
         btnLayout.addWidget(self.exitBtn)
         bottomLayout.addLayout(btnLayout)
  
