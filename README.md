@@ -1,7 +1,7 @@
 
-# Football Analysis Project
+# Football Analyze System bases on YOLOv11
 
-This project aims to develop an AI-driven Football Analysis System that utilizes the YOLOv11 object detection model to effectively localize and detect the positions of players, officials, and the ball in real-time during football games. By integrating advanced technology with a user-friendly interface, the system seeks to make football analytics more accessible and widely applicable. Users will gain valuable insights into player movements, positioning, and tactical patterns, enabling a deeper understanding of the game. 
+This project develops an AI-driven Football Analysis System using the YOLOv11 model to detect players, referees, and the ball in real time. With an integrated GUI, it makes football analytics more accessible and practical.
 
 ## 📁 Dataset
 The self-annotated dataset used for training and evaluation is available for download via Google Drive:
