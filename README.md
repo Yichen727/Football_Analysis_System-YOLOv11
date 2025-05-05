@@ -1,7 +1,7 @@
 
-# Football Analyze System bases on YOLOv11
+# Football Analysis System based on YOLOv11
 
-This project develops an AI-driven Football Analysis System using the YOLOv11 model to detect players, referees, and the ball in real time. With an integrated GUI, it makes football analytics more accessible and practical.
+This project develops an AI-driven Football Analysis System using the YOLOv11 model to detect players, referee, and the ball in real time. With an integrated GUI, it makes football analytics more accessible and practical.
 
 ## 📁 Dataset
 The self-annotated dataset used for training and evaluation is available for download via Google Drive:
